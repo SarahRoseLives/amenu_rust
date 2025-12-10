@@ -1,0 +1,3 @@
+what port is on this:sudo lsof -i :PORT
+create web server:python3 -m http.server 8080
+journal:sudo journalctl -u haproxy.service -n 50
